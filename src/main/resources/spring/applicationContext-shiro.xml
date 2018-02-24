@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+	<!-- 配置自定义realm -->
+	<bean id="userRealm" class="com.xll.dt.shiro.UserRealm">
+		<!-- <property name="credentialsMatcher">
+			<bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+				<property name="hashAlgorithmName" value="MD5"></property>
+				<property name="hashIterations" value="1024"></property>
+				<property name="hashSalted" value="true"></property>
+			</bean>
+		</property> -->
+	</bean>
+	
+	<!-- 配置缓存 -->
+	<bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+		<property name="cacheManagerConfigFile" value="classpath:ehcache.xml"></property>
+	</bean>
+	
+	<!-- 配置securityManager -->
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+		<property name="realm" ref="userRealm"></property>
+		<property name="cacheManager" ref="cacheManager"></property>
+		<property name="rememberMeManager.cookie.maxAge" value="600"></property>
+	</bean>
+	
+	<!-- shiro主过滤器 -->
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+		<!-- shiro核心安全接口，必须配置 -->
+		<property name="securityManager" ref="securityManager"></property>
+		<!-- 登陆时的连接，自动在COntextPath下寻找 -->
+		<property name="loginUrl" value="/login.html"></property>
+		<!-- 登录成功后的连接 -->
+		<property name="successUrl" value="/index"></property>
+		<!-- 用户访问未授权的资源时跳转的连接 -->
+		<property name="unauthorizedUrl" value="/unauthorized.html"></property>
+		
+		<!-- authc：该过滤器下的页面必须验证后才能访问 -->
+		<!-- anon：该过滤器的实现是空，任何用户都可以通过此过滤器 -->
+		<!-- <property name="filterChainDefinitions">
+			<value>
+				/images/**=anon
+				/css/**=anon
+				/libs/**=anon
+				/login.html=anon
+				/sys/login=anon
+				/kaptcha.jpg=anon
+				/sys/user/list=roles[admin]
+				/sys/role/list=perms[sys:role:list]
+				/**=user
+			</value>
+		</property>-->
+		<property name="filterChainDefinitionMap" ref="filterChainDefinitionMap"></property>
+	</bean>
+	
+	<bean id="filterChainDefinitionMapBuilder" class="com.xll.dt.shiro.FilterChainDefinitionMapBuilder"></bean>
+	<bean id="filterChainDefinitionMap" factory-bean="filterChainDefinitionMapBuilder" factory-method="buildFilter"></bean>
+	
+</beans>
