@@ -11,7 +11,7 @@ var vm = new Vue({
 			
 			var columns = [
 				{ title: '用户ID', field: 'userId'},
-				{ title: '用户名', field: 'username'},
+				{ title: '用户名', field: 'userName'},
 				{ title: '邮箱', field: 'email'},
 				{ title: '手机号', field: 'mobile'},
 				{ title: '状态', field: 'status', formatter: function(value, row, index){
