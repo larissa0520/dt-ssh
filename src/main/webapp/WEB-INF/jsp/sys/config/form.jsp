@@ -31,12 +31,20 @@
 					      <input type="text" class="form-control" v-model="config.key" placeholder="参数名"/>
 					    </div>
 					</div>
+
 					<div class="form-group">
 					   	<div class="col-sm-2 control-label">参数值</div>
 					   	<div class="col-sm-10">
 					      <input type="text" class="form-control" v-model="config.value" placeholder="参数值"/>
 					    </div>
 					</div>
+					<div class="form-group">
+						<div class="col-sm-2 control-label">状态</div>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" v-model="config.status" placeholder="状态(1正常 0禁用)"/>
+						</div>
+					</div>
+
 					<div class="form-group">
 					   	<div class="col-sm-2 control-label">备注</div>
 					   	<div class="col-sm-10">

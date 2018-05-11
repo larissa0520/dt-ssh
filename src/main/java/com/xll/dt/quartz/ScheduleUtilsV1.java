@@ -81,7 +81,7 @@ public class ScheduleUtilsV1 {
         try {
             scheduler.resumeJob(JobKey.jobKey("JOB_TASK_" + jobId));
         } catch (SchedulerException e) {
-            throw new RRException("暂停定时任务失败", e);
+            throw new RRException("启动定时任务失败", e);
         }
     }
     
@@ -90,7 +90,7 @@ public class ScheduleUtilsV1 {
         try {
             scheduler.deleteJob(JobKey.jobKey("JOB_TASK_" + jobId));
         } catch (SchedulerException e) {
-            throw new RRException("暂停定时任务失败", e);
+            throw new RRException("删除定时任务失败", e);
         }
     }
     

@@ -47,6 +47,8 @@ public class QuartzJob extends QuartzJobBean {
 		try {
 			
 			System.out.println("准备执行任务，任务ID：" + jobId);
+
+			System.out.println("canshu"+params);
 			
 			Method method = null;
 			if(StringUtils.isNotBlank(params)) {

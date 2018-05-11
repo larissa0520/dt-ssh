@@ -10,7 +10,6 @@ public class TestTask {
 	}
 
 	public void test2() {
-
 		System.out.println("我是不带参数的test方法，正在被执行");
 	}
 }
