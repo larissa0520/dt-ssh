@@ -9,476 +9,15 @@
     <list default="true" readonly="true" id="4afb5a74-be8a-44c1-9e65-7be36e6ac7b7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/dt/controller/SysConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/dt/controller/SysConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/dt/dao/impl/SysConfigDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/dt/dao/impl/SysConfigDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/script/modules/sys/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/script/modules/sys/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xll/dt/controller/SysConfigController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xll/dt/controller/SysConfigController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xll/dt/dao/impl/SysConfigDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xll/dt/dao/impl/SysConfigDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/annotation/MyLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/aop/SysLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/BackupInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/ScheduleJobController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/ScheduleJobLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/SysConfigController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/SysLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/SysLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/SysMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/SysRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/controller/SysUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/BackupInfoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/ScheduleJobDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/ScheduleJobLogDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/SysConfigDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/SysLogDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/SysMenuDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/SysRoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/SysRoleMenuDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/SysUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/SysUserRoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/BackupInfoDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/BaseDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/ScheduleJobDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/ScheduleJobLogDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/SysConfigDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/SysLogDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/SysMenuDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/SysRoleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/SysRoleMenuDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/SysUserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/dao/impl/SysUserRoleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/exception/RRException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/exception/RRExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/ScheduleJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/ScheduleJobLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/SysConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/SysLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/SysMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/SysRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/SysRoleMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/SysUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/pojo/SysUserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/quartz/QuartzJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/quartz/QuartzJobV2反射.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/quartz/QuartzJobV3线程池.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/quartz/QuartzJobV4日志线程池.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/quartz/ScheduleRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/quartz/ScheduleUtilsV1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/quartz/task/TestTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/BackupInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/ScheduleJobLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/ScheduleJobService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/SysConfigService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/SysLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/SysMenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/SysRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/SysUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/impl/BackupInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/impl/ScheduleJobLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/impl/ScheduleJobServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/impl/SysConfigServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/impl/SysLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/impl/SysMenuServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/service/impl/SysUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/shiro/FilterChainDefinitionMapBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/shiro/UserRealm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/Constant$CloudService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/Constant$MenuType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/Constant$ScheduleStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/DBbackupUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/HttpContextUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/IPUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/PasswordUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/ShiroUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/util/SpringContextUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/vo/DataGridResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/vo/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/com/xll/dt/vo/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/ehcache.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/spring/applicationContext-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/spring/applicationContext-log.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/spring/applicationContext-quartz.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/spring/applicationContext-shiro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/schedule/job/form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/schedule/job/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/schedule/joblog/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/config/form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/config/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/log/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/menu/form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/menu/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/role/form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/role/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/user/form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/jsp/sys/user/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/druid-1.0.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/ehcache-2.10.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/ehcache-core-2.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/fastjson-1.2.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/filters-2.0.235.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.10.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-ehcache-5.2.10.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/joda-time-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/kaptcha-0.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/quartz-2.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-core-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-ehcache-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-spring-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-web-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aspects-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-orm-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-test-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/my.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/patterns/header-profile-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/patterns/header-profile-skin-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/patterns/header-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/patterns/shattered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/images/login-bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/images/login-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/images/logo.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/images/logo1.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/FastJson-1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/bootstrap-table-locale-all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/bootstrap-table-locale-all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/bootstrap-table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/bootstrap-table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/bootstrap-table.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/bootstrap-table.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/angular/bootstrap-table-angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/angular/bootstrap-table-angular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/cookie/bootstrap-table-cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/cookie/bootstrap-table-cookie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/editable/bootstrap-table-editable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/editable/bootstrap-table-editable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/export/bootstrap-table-export.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/export/bootstrap-table-export.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/filter-control/bootstrap-table-filter-control.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/filter-control/bootstrap-table-filter-control.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/filter/bootstrap-table-filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/filter/bootstrap-table-filter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/flat-json/bootstrap-table-flat-json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/flat-json/bootstrap-table-flat-json.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/group-by-v2/bootstrap-table-group-by.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/group-by-v2/bootstrap-table-group-by.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/group-by-v2/bootstrap-table-group-by.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/group-by/bootstrap-table-group-by.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/group-by/bootstrap-table-group-by.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/group-by/bootstrap-table-group-by.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/key-events/bootstrap-table-key-events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/key-events/bootstrap-table-key-events.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/mobile/bootstrap-table-mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/mobile/bootstrap-table-mobile.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/multiple-search/bootstrap-table-multiple-search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/multiple-search/bootstrap-table-multiple-search.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/multiple-sort/bootstrap-table-multiple-sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/natural-sorting/bootstrap-table-natural-sorting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/reorder-columns/bootstrap-table-reorder-columns.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/resizable/bootstrap-table-resizable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/resizable/bootstrap-table-resizable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-af-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-af-ZA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ar-SA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ar-SA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ca-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ca-ES.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-cs-CZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-cs-CZ.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-da-DK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-da-DK.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-de-DE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-de-DE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-el-GR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-el-GR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-en-US.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-en-US.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-AR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-AR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-CR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-CR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-ES.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-MX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-MX.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-NI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-NI.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-SP.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-es-SP.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-et-EE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-et-EE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-fa-IR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-fa-IR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-fr-BE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-fr-BE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-fr-FR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-fr-FR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-hr-HR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-hr-HR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-hu-HU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-hu-HU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-it-IT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-it-IT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ja-JP.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ja-JP.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ka-GE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ka-GE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ko-KR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ko-KR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ms-MY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ms-MY.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-nb-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-nb-NO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-nl-NL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-nl-NL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-pl-PL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-pl-PL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-pt-BR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-pt-PT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-pt-PT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ro-RO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ro-RO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ru-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ru-RU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-sk-SK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-sk-SK.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-sv-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-sv-SE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-th-TH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-th-TH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-tr-TR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-tr-TR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-uk-UA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-uk-UA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ur-PK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-ur-PK.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-vi-VN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-vi-VN.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap-table/locale/bootstrap-table-zh-TW.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/echarts/echarts-all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery-validate/jquery.form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery-validate/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery-validate/messages_zh.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery.PrintArea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery.datetimepicker/jquery.datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery.datetimepicker/jquery.datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery.md5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery.steps/jquery.steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/jquery.steps/jquery.steps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/extend/layer.ext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/laydate/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/laydate/need/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/laydate/skins/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/laydate/skins/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/layer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/layim/data/chatlog.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/layim/data/friend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/layim/data/group.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/layim/data/groups.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/layim/layim.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/layim/layim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/layim/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/icon_ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/textbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/xubox_ico0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/xubox_loading0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/xubox_loading1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/xubox_loading2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/xubox_loading3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/default/xubox_title0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/layer.ext.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/moon/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/layer/skin/moon/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/metisMenu/jquery.metisMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/moment-with-locales.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/pace/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/slimscroll/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/vue.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/awesomeStyle/awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/awesomeStyle/awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/awesomeStyle/fa.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/awesomeStyle/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/metroStyle/img/line_conn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/metroStyle/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/metroStyle/img/metro.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/metroStyle/img/metro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/metroStyle/metroStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/1_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/1_open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/diy/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/line_conn.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/zTreeStandard.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/img/zTreeStandard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/css/zTreeStyle/zTreeStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery-1.4.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.core.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.excheck.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.excheck.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.exedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.exedit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.exhide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/js/jquery.ztree.exhide.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/libs/zTree_v3/log v3.x.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/contabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/hplus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/schedule/job/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/schedule/job/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/schedule/joblog/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/config/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/log/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/menu/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/menu/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/role/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/role/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/user/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/script/modules/sys/user/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dt-ssh-0.0.1-SNAPSHOT/unauthorized.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.xll/dt-ssh/dt-ssh (2).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.xll/dt-ssh/dt-ssh (3) (com.xll).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.xll/dt-ssh/dt-ssh (3).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.xll/dt-ssh/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.xll/dt-ssh/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-10-27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/home_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/home_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/schedule/job/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/schedule/job/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/schedule/joblog/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/schedule/joblog/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/sys/log/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/sys/log/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/sys/menu/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/sys/menu/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/sys/role/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/sys/role/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/sys/user/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/dt/org/apache/jsp/WEB_002dINF/jsp/sys/user/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.hibernate.eclipse.console.prefs" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -507,79 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysConfigDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xll/dt/dao/impl/SysConfigDaoImpl.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/script/modules/sys/config/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="40" column="84" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sys/config/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysConfigController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xll/dt/controller/SysConfigController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysConfigService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xll/dt/service/SysConfigService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysConfigServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xll/dt/service/impl/SysConfigServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-              <folding>
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xll/dt/dao/BaseDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -607,13 +78,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/xll/dt/controller/SysConfigController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sys/config/form.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/xll/dt/dao/impl/SysConfigDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/script/modules/sys/config/index.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1043,12 +514,12 @@
       <updated>1526053893652</updated>
       <workItem from="1526053895579" duration="3099000" />
       <workItem from="1526082602593" duration="363000" />
-      <workItem from="1526083549499" duration="3550000" />
+      <workItem from="1526083549499" duration="3829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7012000" />
+    <option name="totallyTimeSpent" value="7291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="39" width="1643" height="1027" extended-state="0" />
@@ -1074,9 +545,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.6516129" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4408602" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4408602" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32903227" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25608996" />
       <window_info anchor="bottom" id="Problems" order="7" weight="0.32903227" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -1113,13 +584,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dt-ssh (1).iml" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xll/dt/vo/Query.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1276,8 +740,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="-340">
           <caret line="40" column="84" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
