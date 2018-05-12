@@ -19,58 +19,60 @@ import com.xll.dt.vo.R;
 
 /**
  * 定时任务
- * 
  */
 @Controller
 @RequestMapping("/sys/config")
 public class SysConfigController {
 
-	@Autowired
-	private SysConfigService sysConfigService;
-	
-	@RequestMapping("/{page}")
-	public String index(@PathVariable String page) {
-		return "sys/config/" +  page;
-	}
-	
-	@RequestMapping("/list")
-	@ResponseBody
-	@RequiresPermissions({"sys:config:list"})
-	public DataGridResult getPage(@RequestParam Map<String, Object> params) {
-		Query query = new Query(params);
-		return sysConfigService.getPageList(query);
-	}
-	
-	@RequestMapping("/delete")
-	@ResponseBody
-	@RequiresPermissions({"sys:config:delete"})
-	public R deleteBatch(@RequestBody Long[] ids) {
-		sysConfigService.deleteBatch(ids);
-		return R.ok();
-	}
-	
-	@RequestMapping("/save")
-	@ResponseBody
-	@RequiresPermissions({"sys:config:save"})
-	public R save(@RequestBody SysConfig sysConfig) {
-		sysConfigService.save(sysConfig);
-		return R.ok();
-	}
-	
-	@RequestMapping("/info/{id}")
-	@ResponseBody
-	@RequiresPermissions({"sys:config:info"})
-	public R save(@PathVariable Long id) {
-		SysConfig sysConfig = sysConfigService.getById(id);
-		return R.ok().put("config", sysConfig);
-	}
-	
-	@RequestMapping("/update")
-	@ResponseBody
-	@RequiresPermissions({"sys:config:update"})
-	public R update(@RequestBody SysConfig sysConfig) {
-		sysConfigService.update(sysConfig);
-		return R.ok();
-	}
-	
+    @Autowired
+    private SysConfigService sysConfigService;
+
+    @RequestMapping("/{page}")
+    public String index(@PathVariable String page) {
+        return "sys/config/" + page;
+    }
+
+    @RequestMapping("/list")
+    @ResponseBody
+    @RequiresPermissions({"sys:config:list"})
+    public DataGridResult getPage(@RequestParam Map<String, Object> params) {
+        Query query = new Query(params);
+        return sysConfigService.getPageList(query);
+    }
+
+    @RequestMapping("/delete")
+    @ResponseBody
+    @RequiresPermissions({"sys:config:delete"})
+    public R deleteBatch(@RequestBody Long[] ids) {
+        sysConfigService.deleteBatch(ids);
+        return R.ok();
+    }
+
+    @RequestMapping("/save")
+    @ResponseBody
+    @RequiresPermissions({"sys:config:save"})
+    public R save(@RequestBody SysConfig sysConfig) {
+        System.out.println("++++++++++"+sysConfig.getStatus());
+        //sysConfig.setStatus(Byte.decode("1"));
+
+        sysConfigService.save(sysConfig);
+        return R.ok();
+    }
+
+    @RequestMapping("/info/{id}")
+    @ResponseBody
+    @RequiresPermissions({"sys:config:info"})
+    public R save(@PathVariable Long id) {
+        SysConfig sysConfig = sysConfigService.getById(id);
+        return R.ok().put("config", sysConfig);
+    }
+
+    @RequestMapping("/update")
+    @ResponseBody
+    @RequiresPermissions({"sys:config:update"})
+    public R update(@RequestBody SysConfig sysConfig) {
+        sysConfigService.update(sysConfig);
+        return R.ok();
+    }
+
 }

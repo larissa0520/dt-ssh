@@ -38,7 +38,7 @@
                             		<li><a href="#">${role}</a></li>
                             	</c:forEach>
                             	<li class="divider"></li>
-                                <li><a class="J_menuItem" href="#">修改密码</a></li>
+                               <%-- <li><a class="J_menuItem" href="#">修改密码</a></li>--%>
                                 <li><a href="logout">安全退出</a>
                                 </li>
                             </ul>
